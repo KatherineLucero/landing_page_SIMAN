@@ -40,13 +40,13 @@ body{
     justify-content: center;
     background-color: var(--color_primary);
     align-items: center;
-    padding: 2rem;
+    padding: 2rem; /* tamaño del contorno d ela imagen */
    
 }
 
 .navbar-icon img{
-    width: 290px;
-    height: 100px;
+    width: 360px; /* tamaño de la img a lo ancho */
+    height: 100px;/* tamaño de la img a lo alto */
 }
 
 
@@ -117,7 +117,7 @@ background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, F
 
 
     font-family: var(--primary_fount);/* el tipo de letra */
-    margin-bottom: 1rem; 
+    margin-bottom: 5rem; 
     border-radius: 10px; /* el margen redondo del cuadrado */
     padding: 1rem; 
     width: 300px;
@@ -146,7 +146,7 @@ align-items:start;
 }
 
 
-
+/* pagina de hombre */
 
 
 
