@@ -44,7 +44,24 @@ body{
    
 }
 
+.navbar-icon h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color_cuarto);
+    font-size:60px;
+}
+
 .navbar-icon img{
+    width: 360px; /* tamaño de la img a lo ancho */
+    height: 100px;/* tamaño de la img a lo alto */
+}
+
+.navbar-img{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem; /* tamaño del contorno d ela imagen */
     width: 360px; /* tamaño de la img a lo ancho */
     height: 100px;/* tamaño de la img a lo alto */
 }
