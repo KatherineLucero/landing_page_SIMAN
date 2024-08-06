@@ -27,7 +27,6 @@
 }
 
 
-
 body{
     height: 100%;
     background-color: var(--color_quinto);
@@ -37,12 +36,21 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     background-color: var(--color_primary);
     align-items: center;
     padding: 2rem; /* tamaño del contorno d ela imagen */
    
 }
+
+.navbar-food{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color_primary);
+    align-items: center;
+    padding: 2rem; /* tamaño del contorno d ela imagen */
+}
+
 
 .navbar-icon h2{
     display: flex;
@@ -50,6 +58,16 @@ body{
     align-items: center;
     color: var(--color_cuarto);
     font-size:60px;
+}
+
+
+.navbar-icon h3{
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary_second_fount);
+    align-items: center;
+    color: var(--color_cuarto);
+    font-size:35px;
 }
 
 .navbar-icon img{
@@ -62,7 +80,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 2rem; /* tamaño del contorno d ela imagen */
-    width: 360px; /* tamaño de la img a lo ancho */
+    width: 300px; /* tamaño de la img a lo ancho */
     height: 100px;/* tamaño de la img a lo alto */
 }
 
@@ -90,6 +108,13 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
     
 }
 
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color_cuarto);
+    font-size:40px;
+}
 
 /* imagenes de promos */
 .promo {
@@ -161,9 +186,6 @@ align-items:start;
     display: flex; /* para poner las cartas una a la par de otra y no hacia abajo */
     justify-content: center; /* para centrarlo en el centro de la pagina */
 }
-
-
-/* pagina de hombre */
 
 
 
