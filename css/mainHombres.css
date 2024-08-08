@@ -48,3 +48,57 @@ body{
     width: 360px; /* tamaño de la img a lo ancho */
     height: 100px;/* tamaño de la img a lo alto */
 }
+
+
+.hombre-1 h2{
+font-family: var(--primary_second_fount);
+color: var(--color_cuarto);
+font-size: 50px;
+
+}
+
+.hombre-1 p{
+font-family: var(--secudary_fount);
+color: var(--color_primary);
+font-size: 35px;
+}
+
+.hombre-container{
+display: flex;
+}
+
+
+
+.hombre-1{
+width: 50%;
+padding: 450px 300px 150px 150px;
+background-color: var(--color_secundary);
+}
+
+
+.hombre-1-1{
+background-image: url(https://res.cloudinary.com/daxb153z0/image/upload/v1723086716/Katherine%20Mendez/ojni64bgl0nbvwpqpcim.webp);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+}
+
+
+
+.hombre-1-2{
+    background-image: url(https://res.cloudinary.com/daxb153z0/image/upload/v1723086715/Katherine%20Mendez/xjme2xzckjc6n2nxu5iu.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+ }
+
+
+ .hombre-1-3{
+    background-image: url(https://res.cloudinary.com/daxb153z0/image/upload/v1723086715/Katherine%20Mendez/v1mhxttykcdeny6ji8zn.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+ }
