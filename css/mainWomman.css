@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Skranji:wght@400;700&display=swap');
+
+
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --altura_header: 5rem;
+
+    --primary_fount:"Oswald", sans-serif;
+    --primary_second_fount: "Skranji", system-ui;
+    --secudary_fount:"Montserrat", sans-serif;
+
+
+    --color_primary:#500004;
+    --color_secundary: #b0040c;
+    --color_tercero: #fd0814;
+    --color_cuarto: #ffc1c4; 
+    --color_quinto: #fff0f1;
+
+}
+
+
+body{
+    height: 100%;
+    background-color: var(--color_quinto);
+  
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:center;
+    background-color: var(--color_primary);
+    align-items: center;
+    padding: 2rem; /* tamaño del contorno d ela imagen */
+   
+}
+
+
+.navbar-icon img{
+    width: 360px; /* tamaño de la img a lo ancho */
+    height: 100px;/* tamaño de la img a lo alto */
+}
+
+
+.mujer-1 h2{
+font-family: var(--primary_second_fount);
+color: var(--color_cuarto);
+font-size: 50px;
+
+}
+
+.mujer-1 p{
+font-family: var(--secudary_fount);
+color: var(--color_primary);
+font-size: 35px;
+}
+
+.mujer-container{
+display: flex;
+}
+
+
+
+.mujer-1{
+width: 50%;
+padding: 450px 300px 150px 150px;
+background-color: var(--color_secundary);
+}
+
+
+.mujer-1-1{
+background-image: url(https://res.cloudinary.com/daxb153z0/image/upload/v1723092445/Katherine%20Mendez/jke0y8aku0hyxo0jowww.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+}
+
+
+
+.mujer-1-2{
+    background-image: url(https://res.cloudinary.com/daxb153z0/image/upload/v1723092445/Katherine%20Mendez/qsxlonmtaaqy0nqmhbqv.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+ }
+
+
+ 
